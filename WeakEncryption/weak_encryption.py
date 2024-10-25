@@ -1,4 +1,3 @@
-# vulnerable_encryption.py
 import hashlib
 
 def hash_password(password):

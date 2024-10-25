@@ -9,9 +9,9 @@ try:
     obj = pickle.loads(data)
     print("Deserialized object:", obj)
 except Exception as e:
-    print("Deserialization failed:", e)
+    print("Deserialization failed:", e)
 
 # JSON deserialization (safe alternative)
 data = '{"key": "value"}'
 obj = json.loads(data)
-print("Deserialized object:", obj)
+print("Deserialized object:", obj)
